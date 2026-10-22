@@ -1,0 +1,38 @@
+INFOTEC — MELHORA O TEU APRENDIZADO NA INFORMÁTICA
+=================================================
+
+COMO ABRIR RAPIDAMENTE
+1. Extrai o ficheiro ZIP para uma pasta.
+2. Abre a pasta e clica duas vezes em index.html.
+   O jogo funciona no navegador e guarda pontos neste dispositivo.
+
+COMO TESTAR NA REDE LOCAL E PREPARAR O MODO OFFLINE
+1. Instala Python 3, se ainda não estiver instalado.
+2. Abre a pasta extraída.
+3. Clica na barra do caminho da pasta, escreve cmd e carrega ENTER.
+4. Escreve: python server.py
+   Se não funcionar, tenta: py server.py
+5. No computador abre http://localhost:8000.
+6. O terminal mostra um endereço IP. Abre esse endereço no telemóvel
+   ligado à mesma rede Wi-Fi ou hotspot que o computador.
+7. Para testar offline, abre primeiro o jogo pelo endereço local e espera
+   alguns segundos para o navegador guardar os ficheiros. Depois desliga
+   a internet e testa novamente. O servidor do PC tem de continuar ligado
+   para outros dispositivos acederem à cópia hospedada no PC.
+
+PARA PUBLICAR NA INTERNET
+Este é um jogo front-end sem contas ou servidor de pontuações online.
+Para disponibilizar pela internet, publica index.html e sw.js num serviço
+de alojamento estático HTTPS. O server.py serve apenas para demonstração local.
+
+FUNCIONALIDADES
+- Interface inicial baseada na imagem de referência fornecida, com zonas clicáveis para os modos de jogo.
+- 3 dificuldades com perguntas e cronómetro.
+- Pontos, explicações, progresso, nível e conquistas.
+- Histórico local de melhores resultados.
+- Cache offline em navegadores compatíveis depois da primeira visita.
+
+NOTA
+As pontuações ficam no armazenamento local do navegador; não são partilhadas
+entre dispositivos. Revê as perguntas e as respostas com os apontamentos do
+professor antes de entregar o trabalho escolar.
